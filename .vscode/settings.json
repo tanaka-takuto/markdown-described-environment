@@ -1,0 +1,8 @@
+{
+  "textlint.autoFixOnSave": true,
+  "files.exclude": {
+    ".devcontainer/**": true,
+    "node_modules/**": true,
+    "package**.json": true
+  }
+}

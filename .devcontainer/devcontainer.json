@@ -1,0 +1,8 @@
+{
+  "name": "writing space",
+  "dockerComposeFile": ["./docker-compose.yml"],
+  "service": "textlint",
+  "workspaceFolder": "/work",
+  "settings": {},
+  "extensions": ["taichi.vscode-textlint", "esbenp.prettier-vscode"]
+}

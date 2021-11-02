@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  plantuml-server:
+    image: "plantuml/plantuml-server"
+    ports:
+      - "8080:8080"
+
+  textlint:
+    build: "textlint"
+    volumes:
+      - "../:/work"
+    command: sh -c "while :; do sleep 10; done"
